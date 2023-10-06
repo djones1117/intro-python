@@ -18,3 +18,39 @@
 
 6 != 7
 # => True — 6 is not equal to 7.
+
+True or False
+# => True
+
+False or True
+# => True
+
+'hello' or 0
+# => 'hello'
+
+0 or 'hello'
+# => 'hello'
+
+True and False
+# => False
+
+False and True
+# => False
+
+'hello' and 0
+# => 0
+
+0 and 'hello'
+# => 0
+
+'hello' and 'tacos'
+# => 'tacos'
+
+not True
+# => False
+
+not 123
+# => False
+
+not []
+# => True
