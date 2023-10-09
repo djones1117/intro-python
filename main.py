@@ -65,15 +65,23 @@ not []
 #   print("Clean the walls! They're sticky!")
 # else:
 #   print("The walls are clean!")
+color = ""
 
-color = input('Enter "green", "yellow", "red": ').lower()
-print(f'The user entered {color}')
- 
-if color == "green":
-    print('Go!')
-elif color == "yellow":
-    print('Slow Down!')
-elif color == "red":
-    print('Stop!')
-else:
-   print('bogus')
+while color != 'quit':
+
+    color = input('Enter "green", "yellow", "red": ').lower()
+    print(f'The user entered {color}')
+    
+    if color == "green":
+        print('Go!')
+    elif color == "yellow":
+        print('Slow Down!')
+    elif color == "red":
+        print('Stop!')
+    else:
+        print('bogus')
+
+names = ["Tom", "Deborah", "Murray", "Axel"]
+
+for name in names:
+  print(name)
