@@ -54,3 +54,14 @@ not 123
 
 not []
 # => True
+
+floor = "sticky"
+walls = "clean"
+if floor == "sticky":   # don't forget the colon
+  print("Clean the floor! It's sticky!")
+  # more lines of code in this code
+  # block need to be indented as well
+if walls == "sticky":
+  print("Clean the walls! They're sticky!")
+else:
+  print("The walls are clean!")
