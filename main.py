@@ -55,13 +55,25 @@ not 123
 not []
 # => True
 
-floor = "sticky"
-walls = "clean"
-if floor == "sticky":   # don't forget the colon
-  print("Clean the floor! It's sticky!")
-  # more lines of code in this code
-  # block need to be indented as well
-if walls == "sticky":
-  print("Clean the walls! They're sticky!")
+# floor = "sticky"
+# walls = "clean"
+# if floor == "sticky":   # don't forget the colon
+#   print("Clean the floor! It's sticky!")
+#   # more lines of code in this code
+#   # block need to be indented as well
+# if walls == "sticky":
+#   print("Clean the walls! They're sticky!")
+# else:
+#   print("The walls are clean!")
+
+color = input('Enter "green", "yellow", "red": ').lower()
+print(f'The user entered {color}')
+ 
+if color == "green":
+    print('Go!')
+elif color == "yellow":
+    print('Slow Down!')
+elif color == "red":
+    print('Stop!')
 else:
-  print("The walls are clean!")
+   print('bogus')
