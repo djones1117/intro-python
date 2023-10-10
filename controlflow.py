@@ -79,7 +79,17 @@ print(f"The dog's age in dog years is {dog_years}")
 # 3. Print a message such as:
 #      - A triangle with sides of <a>, <b> & <c> is a <type of triangle> triangle
 
-
+print('Please enter three lenghts of a triangle')
+a = input('a:')
+b = input('b: ')
+c = input('c: ')
+if a == b and b == c:
+    print(f'A triangle with sides of {a}, {b} & {c} is an equalateral triangle')
+elif a != b and a != c and b != c:
+    print(f'A triangle with sides of {a}, {b} & {c} is a scalene triangle')
+else:
+    print(f'A triangle with sides of {a}, {b} & {c} is a isosceles triangle')
+   
 
 
 
@@ -103,7 +113,31 @@ print(f"The dog's age in dog years is {dog_years}")
 #   for n in range(50):
 
 
+#Using a range with a for loop
+a = 1
+b = 1
+for term in range (50):
+  if term < 2:
+    print('term: {term} / number: {term}')
+  else:
+    c = a + b
+    print(f'term: {term} / number: {c}')
+    a = b
+    b = c
 
+#Using a while loop
+term = 0
+a = 0
+b = 1
+while term < 50:
+  if term < 2:
+    print(f'term: {term} / number: {term}')
+  else:
+    num = a + b
+    print(f'term: {term} / number: {num}')
+    a = b
+    b = num
+  term += 1
 
 
 # exercise-06 What's the Season?
