@@ -88,3 +88,23 @@ idx = 0
 for idx, player in enumerate(players):
   print( idx, player )
 
+#dictionary inside a list
+scores = [
+  {
+    'name': 'dylan',
+    'points': 25  # points the player scored
+  }
+]
+scores.append({
+  'name': 'justin',
+  'points': 12
+})
+
+for score in scores:
+  print( f"{score['name']} scored {score['points']} points")
+
+
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+squares = [num * num for num in nums]
+print(squares)
