@@ -44,3 +44,17 @@ for item_tuple in student.items():
 for key, value in student.items():
   print( f"key = {key} / value = {value}" )
   
+where_my_things_are = {
+  'car': 'in the garage',
+  'keys': 'in the dresser',
+  'wallet': 'in the car'
+}
+for thing, location in where_my_things_are.items():
+  print( f"My {thing} is kept {location}")
+
+#Finished Dictionaries 
+
+
+
+##Lists
+
