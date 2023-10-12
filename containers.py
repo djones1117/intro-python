@@ -40,7 +40,7 @@ for item_tuple in student.items():
   print( f"key = {item_tuple[0]} / value = {item_tuple[1]}" )
 
 ##BEST PRACT ---v-----
-# Best practice "unpack" the tuples just like destructuring
+# Best practice 
 for key, value in student.items():
   print( f"key = {key} / value = {value}" )
   
@@ -56,5 +56,35 @@ for thing, location in where_my_things_are.items():
 
 
 
-##Lists
+##Lists (like js arrays)
+
+colors = ['red', 'green', 'blue']
+print(len(colors))
+colors[2] = 'brown' # updating list
+colors.append('purple') # adding to a list
+colors.extend(['orange', 'black']) # extend the list
+colors.insert(1, 'yellow')  #inserts an item by index value
+del colors[1] # deletes from list by idx num
+colors.remove('orange') #removes by value ## you have to know the value
+print(colors)
+
+odds = [1, 3, 5]
+evens = [2, 4, 6]
+nums = odds + evens
+print(nums)
+##combines two list/ does not sort
+
+
+#what if you need the index
+#not best pract
+players = ['messi', 'ronaldo', 'pele']
+idx = 0
+# for player in players:
+#   print( idx, player )
+#   idx += 1
+
+##beest practice if you need access
+#to the index of the iteration
+for idx, player in enumerate(players):
+  print( idx, player )
 
