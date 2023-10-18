@@ -107,4 +107,54 @@ for score in scores:
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 squares = [num * num for num in nums]
-print(squares)
+
+even_squares = [n * n for n in nums if (n * n) % 2 == 0]
+
+squares == even_squares
+if squares == even_squares:
+  print('true')
+else:
+  print('false')
+print(even_squares)
+
+##Finished Lists 
+
+
+
+##Tuples 
+
+##tuples are like python lists
+
+##tuples cannot be modified unlike lists
+##you can iterate over items in a tuple
+##use tuples if you dont need to update that collection of data -
+##more efficient and better pract
+
+
+colors = ('red', 'green', 'blue')
+print( colors )
+print(len(colors))
+
+if 'purple' in colors:
+  print('true')
+else:
+  print('false')
+
+##unpack tuples
+##naming does not matter could be tuna shark salmon = colors
+r, g, b = colors
+print(r)
+print(g)
+print(b)
+
+##slicing 
+short_name = 'Alexandria'[0:4] # output = x if Alexandria[3]
+print(short_name)              # output = alex if Alexandria[0:4]
+                               #represents starting index and ending index
+
+
+
+colors = ('red', 'green', 'blue')
+colors = colors[:2]  #creates and saves a new tuple output everything until blue
+colors = colors[1:]  #creates a new tuple slices from the tuple created just above this line
+print(colors)
