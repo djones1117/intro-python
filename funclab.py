@@ -29,4 +29,19 @@ print(f"Largest number (using loop): {result_loop}")
 print(f"Largest number (using sort): {result_sort}")
 
 
+def occurrences(string, substr):
+  # remove each occurrence of substr
+  stripped_string = string.replace(substr, '')
+  # compute based on length of the strings
+  return (len(string) - len(stripped_string)) // len(substr)
+	
+# Python actually has a method to solve this too!
+def occurrences(string, substr):
+  return string.count(substr)
 
+
+def product(*args):
+  product = 1
+  for arg in args:
+    product *= arg
+  return product
