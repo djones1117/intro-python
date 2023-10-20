@@ -25,4 +25,32 @@ print(nova.age)
 print(bo)
 print(nova)
 
+
+class Vehicle():
+    
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+        self.running = False
+
+    def start(self):
+        self.running = True
+        print('running')
+
+    def stop(self):
+        self.running = False
+        print('stopped')
+
+    def __str__(self):
+        return f'Vehicle is a {self.make} model {self.model}'
+
+car = Vehicle('BMW', 'I8')
+van = Vehicle('Mercedes', 'G-Wagon')
+print(car.stop())
+print(car.start())
+print(car)
+print(van.make)
+print(van)
+        
+
         
