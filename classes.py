@@ -35,7 +35,7 @@ print(bo)
 print(nova)
 print(Dog.get_total_dogs())
     #subclass of superclass DOG
-class ShowDog(object):
+class ShowDog(Dog):
     #Add additional parameters AFTER those of
     #the superclass (Dog)
     #we need the same properties from above first thing you should do for best practice
@@ -49,11 +49,7 @@ class ShowDog(object):
         self.total_earnings += amount
         print(f'{self.name}\'s new total earnings are {self.total_earnings}')
 
-    def __str__(self):
-        return f'Dog ({self.id}) named {self.name} is {self.age} years old'
-    
-    def bark(self):
-        print(f'{self.name} say woof!' )
+  
         
 chewi = ShowDog('chewi', 15, 3000)
 winky = ShowDog('winky', 3, 1000)

@@ -85,3 +85,15 @@ names = ["Tom", "Deborah", "Murray", "Axel"]
 
 for name in names:
   print(name)
+
+
+for num in range(5):
+   print(num)
+
+
+for even in range(2, 10, 2):
+   print(even)
+
+
+for subtract in range(5, 0, -1):
+   print(subtract)

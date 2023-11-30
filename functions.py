@@ -22,6 +22,7 @@ selected_operation = '+'
 print(math_operations[selected_operation](2, 4))
 
 
+
 nums = [1, 3, 2, 6, 5]
 odds = list(filter(lambda num: num % 2, nums))
 print(odds)

@@ -78,6 +78,7 @@ print(nums)
 #what if you need the index
 #not best pract
 players = ['messi', 'ronaldo', 'pele']
+
 idx = 0
 # for player in players:
 #   print( idx, player )
@@ -99,10 +100,8 @@ scores.append({
   'name': 'justin',
   'points': 12
 })
-
 for score in scores:
-  print( f"{score['name']} scored {score['points']} points")
-
+  print(f"{score['name']} scored {score['points']} points")
 
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
