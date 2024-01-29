@@ -11,7 +11,8 @@ student = {
 print(student['name'])
 print(student['course'])
 print(student['current_week'])
-name = student['name']
+name = student['name']  #accessing the value attached to name key - output - maria. variable name doesnt matter it couldc be student_name = student['name']
+print(name)
 student['name'] = 'Tina' #updating the value 
 print( student.get('skills', {'HTML': 5, 'JAVASCRIPT': 4}) )
 
