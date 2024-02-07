@@ -101,8 +101,8 @@ scores.append({
   'name': 'justin',
   'points': 12
 })
-for score in scores:
-  print(f"{score['name']} scored {score['points']} points")
+for player in scores:
+  print(f"{player['name']} scored {player['points']} points")
 
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
