@@ -80,7 +80,7 @@ print(nums)
 #not best pract
 players = ['messi', 'ronaldo', 'pele']
 
-idx = 0
+# idx = 0
 # for player in players:
 #   print( idx, player )
 #   idx += 1
