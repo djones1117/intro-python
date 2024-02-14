@@ -53,6 +53,18 @@ where_my_things_are = {
 for thing, location in where_my_things_are.items():
   print( f"My {thing} is kept {location}")
 
+#convert the values of dictionary 'x' to a list 
+#first prints out every value 4,8,16,32
+# [2] accesses the third element in the list and prints out 16
+x = {
+  0: 4,
+  1: 8,
+  2: 16,
+  3: 32
+}
+print(list(x.values()))
+print(list(x.values())[2])
+
 #Finished Dictionaries 
 
 
