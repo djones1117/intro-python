@@ -29,12 +29,12 @@ class Dog():
 
 bo = Dog('Bo', 8)
 nova = Dog('Nova')
-print(bo.bark())
+bo.bark()
 print(nova.age)
 print(bo)
 print(nova)
 print(Dog.get_total_dogs())
-    #subclass of superclass DOG
+    # subclass of superclass DOG
 class ShowDog(Dog):
     #Add additional parameters AFTER those of
     #the superclass (Dog)
@@ -54,8 +54,8 @@ class ShowDog(Dog):
 chewi = ShowDog('chewi', 15, 3000)
 winky = ShowDog('winky', 3, 1000)
 print(winky)
-print(winky.bark())
-print(winky.add_prize_money(500))
+winky.bark()
+winky.add_prize_money(500)
 
 class Vehicle():
     
@@ -77,8 +77,8 @@ class Vehicle():
 
 car = Vehicle('BMW', 'I8')
 van = Vehicle('Mercedes', 'G-Wagon')
-print(car.stop())
-print(car.start())
+car.stop()
+car.start()
 print(car)
 print(van.make)
 print(van)

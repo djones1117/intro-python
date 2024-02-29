@@ -9,6 +9,9 @@ print(result)
 def add(a, b):
   return a + b
 
+result = add(1,3)
+print(result)
+
 def subtract(a, b):
   return a - b
 
