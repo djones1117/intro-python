@@ -6,6 +6,11 @@ def first_function():
 result = first_function()
 print(result)
 
+def add_two_numbers(num1, num2):
+  return num1 + num2
+value = add_two_numbers(5,50)
+print(value)
+
 def add(a, b):
   return a + b
 
