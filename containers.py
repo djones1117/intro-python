@@ -40,6 +40,14 @@ print(student.items())
 for item_tuple in student.items():
   print( f"key = {item_tuple[0]} / value = {item_tuple[1]}" )
 
+
+for key in student.keys():
+  print(f"key  = {key}")
+
+
+for value in student.values():
+  print(f"value = {value}")
+
 ##BEST PRACT ---v-----
 # Best practice 
 for key, value in student.items():
