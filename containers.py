@@ -124,6 +124,11 @@ scores.append({
 for player in scores:
   print(f"{player['name']} scored {player['points']} points")
 
+#if you need to iterate through the dictionary inside the list to find the key values
+for my_dict in scores:
+  for key,value in my_dict.items():
+    print(f"key = {key} / value = {value}")
+
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 squares = [num * num for num in nums]
