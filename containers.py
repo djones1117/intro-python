@@ -15,6 +15,8 @@ name = student['name']  #accessing the value attached to name key - output - mar
 print(name)
 student['name'] = 'Tina' #updating the value 
 print( student.get('skills', {'HTML': 5, 'JAVASCRIPT': 4}) )
+#using get method - better practice than square brackets!
+print(student.get('name'))
 
 student['age'] = 25 #adding  to dictionary
 print(student)
