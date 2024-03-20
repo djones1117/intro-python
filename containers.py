@@ -162,6 +162,14 @@ colors = ('red', 'green', 'blue')
 print( colors )
 print(len(colors))
 
+#iterate through a tuple
+for c in colors:
+  print(f"{c} is a good color!")
+
+#you could use -2 to start from green and achieve same result as below
+for color in colors[1:]:
+  print(color)
+
 if 'purple' in colors:
   print('true')
 else:
