@@ -97,6 +97,9 @@ nums = odds + evens
 print(nums)
 ##combines two list/ does not sort
 
+#using list method to make a list of even numbers
+even_numbers = list(range(2, 11, 2))
+print(even_numbers)
 
 #what if you need the index
 #not best pract
@@ -136,6 +139,7 @@ nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 squares = [num * num for num in nums]
 
 even_squares = [n * n for n in nums if (n * n) % 2 == 0]
+
 
 squares == even_squares
 if squares == even_squares:
