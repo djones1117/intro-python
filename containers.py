@@ -101,6 +101,13 @@ print(nums)
 even_numbers = list(range(2, 11, 2))
 print(even_numbers)
 
+numbers = range(1, 11)
+odd_nums = []
+for n in numbers:
+  if n % 2 == 1:
+    odd_nums.append(n)
+print(f"odd nums = ", odd_nums)
+
 #what if you need the index
 #not best pract
 players = ['messi', 'ronaldo', 'pele']
@@ -136,6 +143,7 @@ for my_dict in scores:
 
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+##list comprehension 
 squares = [num * num for num in nums]
 
 even_squares = [n * n for n in nums if (n * n) % 2 == 0]
@@ -156,7 +164,7 @@ print(f"both lists = " + str(both_lists))
 print(len(both_lists))
 list_one.append(list_two)
 print(list_one)
-print(f"length of list one = " + str(len(list_one))) ## have to use the str method if you want to add two types together
+print(f"length of list one = " + str(len(list_one))) ## have to use the str method if you want to concatenate the two types together
 print('length of list one is', len(list_one))  
 
 ##Finished Lists 
