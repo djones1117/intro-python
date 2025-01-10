@@ -148,6 +148,17 @@ else:
   print('false')
 print(even_squares)
 
+
+list_one = [1, 2, 3]
+list_two = [4, 5, 6]
+both_lists = list_one + list_two
+print(f"both lists = " + str(both_lists))
+print(len(both_lists))
+list_one.append(list_two)
+print(list_one)
+print(f"length of list one = " + str(len(list_one))) ## have to use the str method if you want to add two types together
+print('length of list one is', len(list_one))  
+
 ##Finished Lists 
 
 
