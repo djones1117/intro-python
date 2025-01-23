@@ -63,6 +63,17 @@ where_my_things_are = {
 for thing, location in where_my_things_are.items():
   print( f"My {thing} is kept {location}")
 
+  ##nested dictionary
+
+  student = {
+    'name': 'Dylan',
+    'details': {
+      'course': 'sei',
+      'current_week': 7
+    }
+  }
+  print(student['details']['course'])
+
 #convert the values of dictionary 'x' to a list 
 #first prints out every value 4,8,16,32
 # [2] accesses the third element in the list and prints out 16
@@ -218,4 +229,3 @@ colors = colors[1:]  #creates a new tuple slices from the tuple created just abo
 print(colors)
 
 
-#see if this pushes testing github access token authorization on multiple repos
