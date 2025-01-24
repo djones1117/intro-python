@@ -73,6 +73,10 @@ for thing, location in where_my_things_are.items():
     }
   }
   print(student['details']['course'])
+  ##looping through nested dic
+
+for key, value in student['details'].items():
+  print(f"key = {key} / value = {value}")
 
 #convert the values of dictionary 'x' to a list 
 #first prints out every value 4,8,16,32
