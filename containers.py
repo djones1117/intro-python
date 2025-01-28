@@ -232,4 +232,14 @@ colors = colors[:2]  #creates and saves a new tuple output everything until blue
 colors = colors[1:]  #creates a new tuple slices from the tuple created just above this line
 print(colors)
 
+##sets in python
+fruits = {'apple', 'orange', 'banana'}
+print(fruits)
 
+fruits.add('grapes')
+
+fruits.remove('banana')
+
+
+if 'apple' in fruits:
+  print('apple is in the set!')
