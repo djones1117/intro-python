@@ -243,3 +243,12 @@ fruits.remove('banana')
 
 if 'apple' in fruits:
   print('apple is in the set!')
+
+
+
+# Set operations
+set_a = {1, 2, 3, 4}
+set_b = {3, 4, 5, 6}
+print(set_a.union(set_b))  # Combine sets
+print(set_a.intersection(set_b))  # Common items
+print(set_a.difference(set_b))  # Unique to set_a
