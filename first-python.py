@@ -5,7 +5,6 @@
 first_name = 'dylan'
 last_name = 'jones'
 
-
 print(type(first_name))
 print(type(1))
 print(type(1.333333333))
@@ -18,6 +17,14 @@ print(type({})) # dictionary in python
 print(first_name)
 print(last_name)
 print(len(first_name))
+
+##string methods
+name = "Dylan Jones"
+print(name.upper())  # Convert to uppercase
+print(name.lower())  # Convert to lowercase
+print(name.split())  # Split by spaces into a list
+print(name.replace("Jones", "Smith"))  # Replace parts of a string
+print(f"Hello, {name}!")  # String interpolation
 
 person = {
     'name': 'kate',
