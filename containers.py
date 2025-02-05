@@ -252,3 +252,7 @@ set_b = {3, 4, 5, 6}
 print(set_a.union(set_b))  # Combine sets
 print(set_a.intersection(set_b))  # Common items
 print(set_a.difference(set_b))  # Unique to set_a
+
+# Set comprehension
+unique_squares = {n ** 2 for n in nums}
+print(unique_squares)
