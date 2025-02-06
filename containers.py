@@ -256,3 +256,10 @@ print(set_a.difference(set_b))  # Unique to set_a
 # Set comprehension
 unique_squares = {n ** 2 for n in nums}
 print(unique_squares)
+
+
+
+# Removing duplicates from a list using a set
+numbers = [1, 2, 2, 3, 4, 4, 5]
+unique_numbers = set(numbers)
+print(f"Unique numbers: {unique_numbers}")  # {1, 2, 3, 4, 5}
