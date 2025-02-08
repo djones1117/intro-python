@@ -263,3 +263,9 @@ print(unique_squares)
 numbers = [1, 2, 2, 3, 4, 4, 5]
 unique_numbers = set(numbers)
 print(f"Unique numbers: {unique_numbers}")  # {1, 2, 3, 4, 5}
+
+
+# Checking if one set is a subset of another
+small_set = {1, 2}
+big_set = {1, 2, 3, 4, 5}
+print(f"Is small_set a subset of big_set? {small_set.issubset(big_set)}")  # True
