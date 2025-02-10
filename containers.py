@@ -269,3 +269,7 @@ print(f"Unique numbers: {unique_numbers}")  # {1, 2, 3, 4, 5}
 small_set = {1, 2}
 big_set = {1, 2, 3, 4, 5}
 print(f"Is small_set a subset of big_set? {small_set.issubset(big_set)}")  # True
+
+
+# Checking if one set is a superset of another
+print(f"Is big_set a superset of small_set? {big_set.issuperset(small_set)}")  # True
