@@ -96,6 +96,25 @@ print(list(x.values())[2])
 
 ##Lists (like js arrays)
 
+# ---------- LIST BASICS ----------
+print("\n=== LIST BASICS ===")
+
+# Creating a list of names
+names = ["Alice", "Bob", "Charlie", "David"]
+
+# Reversing a list (beginner-friendly way)
+names.reverse()  
+print(f"Reversed list: {names}")  # ['David', 'Charlie', 'Bob', 'Alice']
+
+# Sorting a list
+names.sort()  
+print(f"Sorted list: {names}")  # ['Alice', 'Bob', 'Charlie', 'David']
+
+# Slicing a list (first two elements)
+first_two = names[:2]
+print(f"First two names: {first_two}")  # ['Alice', 'Bob']
+
+
 colors = ['red', 'green', 'blue']
 print(len(colors))
 colors[2] = 'brown' # updating list
