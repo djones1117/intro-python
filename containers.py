@@ -196,7 +196,7 @@ list_two = [4, 5, 6]
 both_lists = list_one + list_two
 print(f"both lists = " + str(both_lists))
 print(len(both_lists))
-list_one.append(list_two)
+list_one.append(list_two) ## adds one item. if you append another list it gets added as one element.it creates a nested list extend is better practice if you want multiple elements added to one list
 print(list_one)
 print(f"length of list one = " + str(len(list_one))) ## have to use the str method if you want to concatenate the two types together
 print('length of list one is', len(list_one))  
