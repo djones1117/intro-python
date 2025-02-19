@@ -201,6 +201,14 @@ print(list_one)
 print(f"length of list one = " + str(len(list_one))) ## have to use the str method if you want to concatenate the two types together
 print('length of list one is', len(list_one))  
 
+## append vs extend 
+##fruits = ["apple", "banana"]
+##fruits.append(["cherry", "orange"])  # Appends as ONE item
+##print(f"After append: {fruits}")  # ['apple', 'banana', ['cherry', 'orange']]
+
+##fruits = ["apple", "banana"]
+##fruits.extend(["cherry", "orange"])  # Adds each element individually
+##print(f"After extend: {fruits}")  # ['apple', 'banana', 'cherry', 'orange']
 ##Finished Lists 
 
 
