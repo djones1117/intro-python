@@ -124,7 +124,11 @@ colors.insert(1, 'yellow')  #inserts an item by index value
 del colors[1] # deletes from list by idx num
 colors.remove('orange') #removes by value ## you have to know the value
 print(colors)
-
+##splicing to remove and add in new elements removes 2,3, and up to but not 4. result will be 0 1 99 100 4
+list_three = [0, 1, 2, 3, 4]
+list_three[2:4] = [99, 100]
+result = list_three
+print(result)
 odds = [1, 3, 5]
 evens = [2, 4, 6]
 nums = odds + evens
