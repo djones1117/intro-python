@@ -305,3 +305,6 @@ print(f"Is small_set a subset of big_set? {small_set.issubset(big_set)}")  # Tru
 
 # Checking if one set is a superset of another
 print(f"Is big_set a superset of small_set? {big_set.issuperset(small_set)}")  # True
+
+
+##set project here
