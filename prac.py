@@ -10,3 +10,12 @@ print(new_list)
 #iterates over my_list to check if the number is even 
 #and multiplies that number x 2
 #[4, 8]
+
+number = 0
+
+# Simulated do...while loop
+while True:
+    print("Number is:", number)
+    number += 1
+    if number >= 3:
+        break
