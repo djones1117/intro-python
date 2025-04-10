@@ -19,3 +19,6 @@ while True:
     number += 1
     if number >= 3:
         break
+
+
+### add more looping problems
