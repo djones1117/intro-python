@@ -22,3 +22,20 @@ while True:
 
 
 ### add more looping problems
+
+
+
+correct_password = "secret"
+attempts = 0
+
+while True:
+    guess = input("Enter password: ")
+    attempts += 1
+    if guess == correct_password:
+        print("Access granted.")
+        break
+    elif attempts >= 3:
+        print("Too many attempts. Access denied.")
+        break
+    else:
+        print("Incorrect. Try again.")
