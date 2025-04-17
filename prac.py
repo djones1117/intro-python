@@ -49,3 +49,15 @@ for i in range(1, n + 1):
     total += i
 
 print("Sum from 1 to", n, "is:", total)
+
+
+
+n = 10
+total = 0
+
+for i in range(1, n + 1):
+    if i % 3 == 0:
+        continue  # Skip numbers divisible by 3
+    total += i
+
+print("Sum of numbers from 1 to", n, "excluding multiples of 3 is:", total)
