@@ -70,3 +70,7 @@ for num in my_list:
     if num > 20:
         print("First number greater than 20 is:", num)
         break
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, "x", j, "=", i * j)
