@@ -61,3 +61,12 @@ for i in range(1, n + 1):
     total += i
 
 print("Sum of numbers from 1 to", n, "excluding multiples of 3 is:", total)
+
+
+
+my_list = [5, 8, 13, 21, 34]
+
+for num in my_list:
+    if num > 20:
+        print("First number greater than 20 is:", num)
+        break
