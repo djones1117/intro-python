@@ -74,3 +74,10 @@ for num in my_list:
 for i in range(1, 4):
     for j in range(1, 4):
         print(i, "x", j, "=", i * j)
+
+
+count = 5
+while count > 0:
+    print("Countdown:", count)
+    count -= 1
+print("Lift off!")
