@@ -81,3 +81,7 @@ while count > 0:
     print("Countdown:", count)
     count -= 1
 print("Lift off!")
+
+
+squares = [x**2 for x in range(1, 6)]
+print("Squares:", squares)
