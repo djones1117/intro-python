@@ -85,3 +85,7 @@ print("Lift off!")
 
 squares = [x**2 for x in range(1, 6)]
 print("Squares:", squares)
+
+
+odd_squares = [x**2 for x in range(1, 6) if x % 2 == 1]
+print(odd_squares)
