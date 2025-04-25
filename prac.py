@@ -89,3 +89,7 @@ print("Squares:", squares)
 
 odd_squares = [x**2 for x in range(1, 6) if x % 2 == 1]
 print(odd_squares)
+
+
+for num in range(5, 0, -1):
+    print(num)
