@@ -93,3 +93,9 @@ print(odd_squares)
 
 for num in range(5, 0, -1):
     print(num)
+
+
+product = 1
+for num in range(1, 6):
+    product *= num
+print("Product from 1 to 5 is:", product)
