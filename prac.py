@@ -104,3 +104,10 @@ print("Product from 1 to 5 is:", product)
 numbers = [1, 2, 3, 4, 5, 6]
 tripled_odds = [x * 3 for x in numbers if x % 2 == 1]
 print(tripled_odds)
+
+total = 0
+for i in range(1, 21):
+    if i % 2 == 0:
+        total += i
+print("Sum of even numbers from 1 to 20 is:", total)
+
