@@ -111,3 +111,11 @@ for i in range(1, 21):
         total += i
 print("Sum of even numbers from 1 to 20 is:", total)
 
+# Counting down with a custom message
+countdown = 5
+
+while countdown > 0:
+    print("Counting down:", countdown)
+    countdown -= 1
+
+print("Blast off!")
