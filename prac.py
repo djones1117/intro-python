@@ -119,3 +119,13 @@ while countdown > 0:
     countdown -= 1
 
 print("Blast off!")
+
+
+my_list = [1, 2, 2, 3, 4, 4, 5]
+unique_list = []
+
+for num in my_list:
+    if num not in unique_list:
+        unique_list.append(num)
+
+print("List without duplicates:", unique_list)
