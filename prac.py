@@ -129,3 +129,10 @@ for num in my_list:
         unique_list.append(num)
 
 print("List without duplicates:", unique_list)
+
+
+number = int(input("Enter a number: "))
+if number % 2 == 0:
+    print(number, "is even.")
+else:
+    print(number, "is odd.")
