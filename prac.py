@@ -147,3 +147,10 @@ elif number < 0:
 else:
     print("The number is zero.")
 
+for i in range(1, 21):
+    output = ""
+    if i % 3 == 0:
+        output += "Fizz"
+    if i % 5 == 0:
+        output += "Buzz"
+    print(output or i)
