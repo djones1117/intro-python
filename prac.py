@@ -154,3 +154,13 @@ for i in range(1, 21):
     if i % 5 == 0:
         output += "Buzz"
     print(output or i)
+
+
+# Check if a number is prime
+n = 7
+for i in range(2, n):
+    if n % i == 0:
+        print(n, "is not prime")
+        break
+else:
+    print(n, "is prime")
