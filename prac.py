@@ -174,3 +174,7 @@ for num in range(2, 21):
             break
     if is_prime:
         print(num, "is a prime number")
+fruits = ["apple", "banana", "cherry"]
+
+for index, fruit in enumerate(fruits):
+    print(f"Fruit #{index + 1} is {fruit}")
