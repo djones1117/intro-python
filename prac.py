@@ -178,3 +178,13 @@ fruits = ["apple", "banana", "cherry"]
 
 for index, fruit in enumerate(fruits):
     print(f"Fruit #{index + 1} is {fruit}")
+
+
+text = "hello"
+reversed_text = ""
+
+for char in text:
+    reversed_text = char + reversed_text
+
+print("Reversed string:", reversed_text)
+
