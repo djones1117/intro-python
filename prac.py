@@ -188,3 +188,15 @@ for char in text:
 
 print("Reversed string:", reversed_text)
 
+student_scores = {
+    "Alice": 85,
+    "Bob": 72,
+    "Charlie": 90,
+    "Diana": 95,
+    "Evan": 67
+}
+
+# Print students who scored 80 or above
+for student, score in student_scores.items():
+    if score >= 80:
+        print(f"{student} passed with a score of {score}")
