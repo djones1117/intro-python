@@ -200,3 +200,13 @@ student_scores = {
 for student, score in student_scores.items():
     if score >= 80:
         print(f"{student} passed with a score of {score}")
+
+numbers = [2, 4, 6, 8, 9, 10]
+
+for num in numbers:
+    if num % 2 != 0:
+        print("Found an odd number:", num)
+        break
+else:
+    print("All numbers are even")
+
