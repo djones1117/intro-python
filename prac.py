@@ -218,3 +218,5 @@ ages = [25, 30, 35]
 for name, age in zip(names, ages):
     print(f"{name} is {age} years old")
 
+for i in range(10, 0, -2):
+    print("Step:", i)
