@@ -220,3 +220,15 @@ for name, age in zip(names, ages):
 
 for i in range(10, 0, -2):
     print("Step:", i)
+
+##looping through a 2d list
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+for row in matrix:
+    for item in row:
+        print(item, end=" ")
+    print()
