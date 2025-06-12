@@ -232,3 +232,10 @@ for row in matrix:
     for item in row:
         print(item, end=" ")
     print()
+
+
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You're eligible to vote.")
+else:
+    print("You're too young to vote.")
