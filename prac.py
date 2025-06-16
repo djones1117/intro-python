@@ -239,3 +239,10 @@ if age >= 18:
     print("You're eligible to vote.")
 else:
     print("You're too young to vote.")
+
+
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+
+result = a + b
+print("The sum is:", result)
