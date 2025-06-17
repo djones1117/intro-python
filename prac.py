@@ -246,3 +246,11 @@ b = int(input("Enter the second number: "))
 
 result = a + b
 print("The sum is:", result)
+
+
+word = input("Enter a word: ")
+
+if "a" in word:
+    print("The word contains the letter 'a'.")
+else:
+    print("The word does not contain the letter 'a'.")
