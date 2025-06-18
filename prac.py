@@ -254,3 +254,9 @@ if "a" in word:
     print("The word contains the letter 'a'.")
 else:
     print("The word does not contain the letter 'a'.")
+
+
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Alice")
