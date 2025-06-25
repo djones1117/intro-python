@@ -274,3 +274,10 @@ set2 = {4, 5, 6, 7, 8}
 
 common = set1 & set2
 print("Common elements:", common)
+
+
+person = ("Alice", 30, "Engineer")
+
+##tuple unpacking
+name, age, profession = person
+print(f"{name} is a {age}-year-old {profession}.")
