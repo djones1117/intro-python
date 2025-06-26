@@ -281,3 +281,15 @@ person = ("Alice", 30, "Engineer")
 ##tuple unpacking
 name, age, profession = person
 print(f"{name} is a {age}-year-old {profession}.")
+
+# Dictionary of subjects and their list of scores
+subject_scores = {
+    "Math": [90, 85, 78],
+    "Science": [88, 92, 80],
+    "English": [75, 80, 72]
+}
+
+# Calculate average score for each subject
+for subject, scores in subject_scores.items():
+    average = sum(scores) / len(scores)
+    print(f"Average score for {subject} is: {average:.2f}")
