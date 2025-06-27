@@ -293,3 +293,11 @@ subject_scores = {
 for subject, scores in subject_scores.items():
     average = sum(scores) / len(scores)
     print(f"Average score for {subject} is: {average:.2f}")
+
+
+name = "Alice"
+age = 30
+profession = "Engineer"
+
+intro = f"{name} is a {age}-year-old {profession}."
+print(intro)
