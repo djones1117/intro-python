@@ -295,9 +295,10 @@ for subject, scores in subject_scores.items():
     print(f"Average score for {subject} is: {average:.2f}")
 
 
-name = "Alice"
-age = 30
-profession = "Engineer"
+# Let the user input their own details
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+profession = input("Enter your profession: ")
 
 intro = f"{name} is a {age}-year-old {profession}."
 print(intro)
