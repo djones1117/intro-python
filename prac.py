@@ -302,3 +302,11 @@ profession = input("Enter your profession: ")
 
 intro = f"{name} is a {age}-year-old {profession}."
 print(intro)
+
+
+text = "Artificial Intelligence"
+vowels = "aeiouAEIOU"
+
+for char in text:
+    if char in vowels:
+        print(char, end=" ")       
