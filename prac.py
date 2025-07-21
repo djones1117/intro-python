@@ -342,3 +342,12 @@ for i in range(1, rows + 1):
         print("*", end="")
     print()
 
+word = input("Enter a word: ")
+letter = input("Enter a letter to count: ")
+
+count = 0
+for char in word:
+    if char == letter:
+        count += 1
+
+print(f"The letter '{letter}' appears {count} time(s) in '{word}'.")
