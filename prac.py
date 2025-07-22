@@ -351,3 +351,12 @@ for char in word:
         count += 1
 
 print(f"The letter '{letter}' appears {count} time(s) in '{word}'.")
+
+
+number = None
+
+while number != 0:
+    number = int(input("Enter a number (0 to stop): "))
+    print("You entered:", number)
+
+print("Done!")
