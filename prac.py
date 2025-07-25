@@ -366,3 +366,14 @@ print("Even numbers from 1 to 20:")
 for num in range(1, 21):
     if num % 2 == 0:
         print(num)
+secret_number = 7
+guess = None
+
+while guess != secret_number:
+    guess = int(input("Guess the number (between 1 and 10): "))
+    if guess < secret_number:
+        print("Too low!")
+    elif guess > secret_number:
+        print("Too high!")
+    else:
+        print("You guessed it!")
