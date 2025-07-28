@@ -377,3 +377,7 @@ while guess != secret_number:
         print("Too high!")
     else:
         print("You guessed it!")
+word = input("Enter a word: ")
+
+for letter in word:
+    print(letter)
