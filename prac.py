@@ -391,3 +391,8 @@ for i in range(len(original) - 1, -1, -1):
 
 print("Original list:", original)
 print("Reversed list:", reversed_list)
+
+
+for number in range(1, 11):
+    if number % 2 != 0:
+        print(number)
