@@ -396,3 +396,8 @@ print("Reversed list:", reversed_list)
 for number in range(1, 11):
     if number % 2 != 0:
         print(number)
+total = 0
+for number in range(1, 6):
+    total += number
+
+print("Total sum is:", total)
