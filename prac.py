@@ -401,3 +401,10 @@ for number in range(1, 6):
     total += number
 
 print("Total sum is:", total)
+numbers = [1, 2, 3, 4, 5]
+total = 0
+
+for num in numbers:
+    total += num
+
+print("Sum is:", total)
