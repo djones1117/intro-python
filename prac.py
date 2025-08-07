@@ -408,3 +408,6 @@ for num in numbers:
     total += num
 
 print("Sum is:", total)
+
+numbers = [1, 2, 3, 4, 5]
+print("Sum is:", sum(numbers))
