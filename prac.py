@@ -411,3 +411,13 @@ print("Sum is:", total)
 
 numbers = [1, 2, 3, 4, 5]
 print("Sum is:", sum(numbers))
+
+
+numbers = [9, 2, 7, 1, 5]
+smallest = numbers[0]
+
+for num in numbers:
+    if num < smallest:
+        smallest = num
+
+print("Smallest number is:", smallest)
