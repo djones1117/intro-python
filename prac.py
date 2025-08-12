@@ -421,3 +421,15 @@ for num in numbers:
         smallest = num
 
 print("Smallest number is:", smallest)
+
+text = input("Enter a word or sentence: ")
+vowels = "aeiouAEIOU"
+result = ""
+
+for char in text:
+    if char in vowels:
+        result += "*"
+    else:
+        result += char
+
+print("Modified text:", result)
