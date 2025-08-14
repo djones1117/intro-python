@@ -439,3 +439,7 @@ for i in range(size):
     for j in range(size):
         print("#", end="")
     print()
+word = input("Enter a word: ")
+
+for index in range(len(word)):
+    print(f"Character '{word[index]}' is at index {index}")
