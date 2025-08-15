@@ -443,3 +443,8 @@ word = input("Enter a word: ")
 
 for index in range(len(word)):
     print(f"Character '{word[index]}' is at index {index}")
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+
+for word in words:
+    print(word.capitalize())
