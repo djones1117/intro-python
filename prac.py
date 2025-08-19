@@ -448,3 +448,9 @@ words = sentence.split()
 
 for word in words:
     print(word.capitalize())
+nums = [2, 4, 6, 8]
+total = 0
+
+for num in nums:
+    total += num
+    print(f"Added {num}, running total is {total}")
