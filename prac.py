@@ -454,3 +454,9 @@ total = 0
 for num in nums:
     total += num
     print(f"Added {num}, running total is {total}")
+
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+
+for word in words:
+    print(word.capitalize())
