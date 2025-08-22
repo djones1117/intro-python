@@ -460,3 +460,15 @@ words = sentence.split()
 
 for word in words:
     print(word.capitalize())
+
+
+text = input("Enter a sentence: ")
+new_text = ""
+
+for char in text:
+    if char == " ":
+        new_text += "_"
+    else:
+        new_text += char
+
+print("Modified text:", new_text)
