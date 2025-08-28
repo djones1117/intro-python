@@ -472,3 +472,13 @@ for char in text:
         new_text += char
 
 print("Modified text:", new_text)
+
+
+numbers = [5, 12, 3, 18, 7, 21]
+filtered = []
+
+for num in numbers:
+    if num > 10:
+        filtered.append(num)
+
+print("Numbers greater than 10:", filtered)
