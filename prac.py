@@ -482,3 +482,14 @@ for num in numbers:
         filtered.append(num)
 
 print("Numbers greater than 10:", filtered)
+
+
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+capital_count = 0
+
+for word in words:
+    if word[0].isupper():
+        capital_count += 1
+
+print("Words starting with a capital letter:", capital_count)
