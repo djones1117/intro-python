@@ -493,3 +493,17 @@ for word in words:
         capital_count += 1
 
 print("Words starting with a capital letter:", capital_count)
+
+
+word = input("Enter a word: ")
+is_palindrome = True
+
+for i in range(len(word) // 2):
+    if word[i] != word[-(i + 1)]:
+        is_palindrome = False
+        break
+
+if is_palindrome:
+    print("It's a palindrome!")
+else:
+    print("Not a palindrome.")
