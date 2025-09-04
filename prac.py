@@ -507,3 +507,11 @@ if is_palindrome:
     print("It's a palindrome!")
 else:
     print("Not a palindrome.")
+
+
+word = input("Enter a word: ")
+built = ""
+
+for letter in word:
+    built += letter
+    print(built)
