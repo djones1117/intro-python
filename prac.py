@@ -515,3 +515,14 @@ built = ""
 for letter in word:
     built += letter
     print(built)
+
+
+size = int(input("Enter the size: "))
+
+for i in range(size):
+    for j in range(size):
+        if i == j:
+            print("X", end="")
+        else:
+            print(" ", end="")
+    print()
