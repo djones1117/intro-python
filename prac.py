@@ -539,3 +539,16 @@ for i in range(1, len(text)):
             switches += 1
 
 print("Number of vowel/consonant switches:", switches)
+
+text = input("Enter a word or sentence: ").lower()
+vowels = "aeiou"
+switches = 0
+
+for i in range(1, len(text)):
+    if text[i-1].isalpha() and text[i].isalpha():
+        prev = text[i-1] in vowels
+        curr = text[i] in vowels
+        if prev != curr:
+            switches += 1
+
+print("Number of vowel/consonant switches:", switches)
