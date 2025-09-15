@@ -552,3 +552,12 @@ for i in range(1, len(text)):
             switches += 1
 
 print("Number of vowel/consonant switches:", switches)
+
+numbers = [4, 7, 12, 15, 18, 2, 30, 11]
+count = 0
+
+for num in numbers:
+    if num % 2 == 0 and num > 10:
+        count += 1
+
+print("Even numbers greater than 10:", count)
