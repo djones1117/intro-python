@@ -561,3 +561,11 @@ for num in numbers:
         count += 1
 
 print("Even numbers greater than 10:", count)
+
+
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+
+for word in words:
+    if word.endswith("ing"):
+        print(word)
