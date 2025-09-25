@@ -569,3 +569,12 @@ words = sentence.split()
 for word in words:
     if word.endswith("ing"):
         print(word)
+
+text = input("Enter something: ")
+digit_count = 0
+
+for char in text:
+    if char.isdigit():
+        digit_count += 1
+
+print("Number of digits:", digit_count)
