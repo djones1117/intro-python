@@ -578,3 +578,12 @@ for char in text:
         digit_count += 1
 
 print("Number of digits:", digit_count)
+
+text = "Hello, world! How are you?"
+cleaned = ""
+
+for char in text:
+    if char.isalpha() or char.isspace():
+        cleaned += char
+
+print("Cleaned text:", cleaned)
