@@ -587,3 +587,12 @@ for char in text:
         cleaned += char
 
 print("Cleaned text:", cleaned)
+
+numbers = [1, 2, 3, 4, 5]
+product = 1
+
+for num in numbers:
+    if num % 2 == 1:
+        product *= num
+
+print("Product of odd numbers:", product)
