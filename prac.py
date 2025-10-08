@@ -596,3 +596,12 @@ for num in numbers:
         product *= num
 
 print("Product of odd numbers:", product)
+
+numbers = [3, 5, 9, 10, 12, 14, 15]
+count = 0
+
+for num in numbers:
+    if num % 3 == 0:
+        count += 1
+
+print("Count of numbers divisible by 3:", count)
