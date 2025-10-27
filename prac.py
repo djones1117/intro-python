@@ -605,3 +605,14 @@ for num in numbers:
         count += 1
 
 print("Count of numbers divisible by 3:", count)
+
+
+numbers = [2, 7, 3, 10, 5, 8]
+largest = None
+
+for num in numbers:
+    if num % 2 == 1:
+        if largest is None or num > largest:
+            largest = num
+
+print("Largest odd number:", largest)
